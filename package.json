@@ -1,0 +1,50 @@
+{
+  "name": "@muapi/ai-sdk-provider",
+  "version": "0.1.0",
+  "description": "MuAPI provider for the Vercel AI SDK — image and video generation with 50+ models",
+  "keywords": [
+    "muapi",
+    "ai",
+    "ai-sdk",
+    "vercel-ai",
+    "image-generation",
+    "video-generation",
+    "flux",
+    "kling",
+    "veo3",
+    "wan",
+    "seedance"
+  ],
+  "homepage": "https://muapi.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamurAIGPT/muapi-ai-sdk-provider"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@ai-sdk/provider": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@ai-sdk/provider": "^3.0.10",
+    "@types/node": "^25.9.3",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
