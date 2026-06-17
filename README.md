@@ -1,6 +1,6 @@
 # @muapi/ai-sdk-provider
 
-[MuAPI](https://muapi.ai) provider for the [Vercel AI SDK](https://sdk.vercel.ai) — image and video generation with 50+ models including Flux, Veo3, Kling, Wan, Seedance, Midjourney, and more.
+[MuAPI](https://muapi.ai) provider for the [Vercel AI SDK](https://sdk.vercel.ai) — image and video generation with 400+ models including Flux, Veo3, Kling, Wan, Seedance, Midjourney, and more.
 
 ## Installation
 
